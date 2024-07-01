@@ -84,7 +84,7 @@ Description of the project:
 7. File Structure to follow below.
 
 ```
-WD-ProjectName
+WD-Seatwork 4
 └─ assets
 |   └─ css
 |   |   └─ style.css
