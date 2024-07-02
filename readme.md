@@ -91,7 +91,13 @@ WD-Seatwork 4
 |   └─ img
 |   |   └─ mochi-mochi.png
 └─ pages
-|  └─ Feature 1
+|  └─ page1
+|     └─ assets
+|     |  └─ css
+|     |  |  └─ style.css
+|     |  └─ img
+|     |  |  └─
+|  └─ page2
 |     └─ assets
 |     |  └─ css
 |     |  |  └─ style.css
