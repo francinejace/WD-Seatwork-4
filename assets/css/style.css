@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Astoria';
+}
+
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100dvh;
+    width: 100%;
+    padding: 2rem;
+    background-color: #ccb197;
+}
+
+@font-face {
+    font-family: 'Dolly-bold';
+    src: url(Dolly\ Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Dolly-Roman';
+    src: url(Dolly-Roman.ttf);
+}
+
+@font-face {
+    font-family: 'Astoria';
+    src: url(AstoriaLight.ttf);
+}
+
+h3 {
+    font-family: 'Astoria';
+    margin-bottom: -0.5rem;
+}
+
+h1 {
+    font-family: 'Dolly-Roman';
+    font-size: 6rem;
+    margin: 0.5rem;
+}
+
+p {
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.buttons {
+    display: flex;
+    padding: 1rem;
+    gap: 10px;
+}
+
+.hero-buttons {
+    text-decoration: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #693f18;
+    color: white;
+    border-radius: 5px;
+    justify-content: space-around;
+    transition: background-color 0.3s ease;
+  }
+
+.hero-buttons:hover {
+    background-color: #36210c;
+}
