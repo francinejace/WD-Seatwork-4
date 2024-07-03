@@ -13,7 +13,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  This repository presents the process in creation of a featured website.
+  This repository presents the contents of a featured website.
 </div>
 
 <br />
@@ -59,7 +59,7 @@
 <!-- The following are just sample -->
 Description of the project:
 
-- This project shows the contents of a featured website, where it focuses on technological feature and disney-themed feature.
+- This project shows the contents of a featured website, where it focuses on features of certain subjects.
 - To present a functional website for future skill reference.
 
 ### Key Components
@@ -91,7 +91,13 @@ WD-Seatwork 4
 |   └─ img
 |   |   └─ mochi-mochi.png
 └─ pages
-|  └─ Feature 1
+|  └─ page1
+|     └─ assets
+|     |  └─ css
+|     |  |  └─ style.css
+|     |  └─ img
+|     |  |  └─
+|  └─ page2
 |     └─ assets
 |     |  └─ css
 |     |  |  └─ style.css
