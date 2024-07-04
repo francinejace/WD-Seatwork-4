@@ -114,3 +114,4 @@ WD-Seatwork 4
 | Title | Purpose | Link |
 |-|-|-|
 | Logo | To serve as the logo of the website. | looka.com/blog/cute-logos/ |
+| Brand | For contents in feature 1 | samsung.com/ph |
