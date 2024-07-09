@@ -10,6 +10,7 @@
   src: url(../../assets/css/noto-sans-vithkuqi/NotoSansVithkuqi[wght].ttf);
 }
 
+/* hero */
 .hero {
   position: relative;
   width: 100%;
@@ -28,18 +29,32 @@
 }
 
 .header {
-  position: absolute;
-  top: 5px;
+  position: relative;
+  top: 0;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px 20px;
   z-index: 1;
+  transition: background-color 0.3s ease;
+}
+
+.header:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.header:hover .buttons {
+  color: aliceblue;
+}
+
+.header:hover .logo {
+  filter: drop-shadow(0 0 10px white);
 }
 
 .header .logo {
   max-height: 30px;
+  transition: filter 0.3s ease;
 }
 
 .header-buttons {
@@ -94,3 +109,33 @@
     transform: translateX(20px);
     text-shadow: 2px 2px 0px rgb(255, 255, 255);
     cursor: pointer;
+}
+
+/* New sections */
+.section-light {
+  background-color: #ffffff;
+  padding: 50px 20px;
+  min-height: 80vh;
+}
+
+.section-dark {
+  background-color: #05141f;
+  color: white;
+  padding: 50px 20px;
+  min-height: 80vh;
+}
+
+.section-light-2 {
+  background-color: #ffffff;
+  padding: 50px 20px;
+  min-height: 80vh;
+}
+
+.texts {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.texts h1, .texts p {
+  margin-bottom: 20px;
+}
