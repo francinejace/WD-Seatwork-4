@@ -111,7 +111,7 @@
     cursor: pointer;
 }
 
-/* New sections */
+/* sections */
 .section-light {
   background-color: #ffffff;
   padding: 50px 20px;
@@ -138,4 +138,9 @@
 
 .texts h1, .texts p {
   margin-bottom: 20px;
+}
+
+.texts-1 h1, .texts-1 p {
+  max-width: 800px;
+  right: 10px;
 }
